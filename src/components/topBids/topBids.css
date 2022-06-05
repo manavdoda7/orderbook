@@ -1,0 +1,11 @@
+.top-bids h4 {
+    color: #f6465d;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.top-bids td:first-child, .top-bids th:first-child {
+    color: #f6465d;
+}
