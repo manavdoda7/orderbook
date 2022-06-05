@@ -1,3 +1,7 @@
+.dialogue-container {
+    width: 100% !important;
+}
+
 .dialogue-container .overlay{
     position: absolute;
     top: 0;
@@ -16,9 +20,9 @@
     width: 50%;
     left: 25%;
     top: 10vh;
-    height: 80vh;
+    min-height: 80vh;
     background-color: #161a1e;
-    border: 10px;
+    border-radius: 10px !important;
 }
 .dialogue-container h1 {
     text-align: center;
