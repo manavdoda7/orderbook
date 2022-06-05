@@ -1,0 +1,108 @@
+.dialogue-container .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    /* z-index: 20; */
+    background-color: #000;
+    opacity: 0.7;
+}
+
+.dialogue-container .content {
+    position: absolute;
+    opacity: 1 !important;
+    z-index: 21;
+    width: 50%;
+    left: 25%;
+    top: 10vh;
+    height: 80vh;
+    background-color: #161a1e;
+    border: 10px;
+}
+.dialogue-container h1 {
+    text-align: center;
+}
+
+.dialogue-container .buttons-div {
+    margin: 25px;
+}
+
+.dialog-buttons{
+    width: 19%;
+    margin-right: 1%;
+    margin-bottom: 10px;
+    background-color: #f9d342;
+    border: 0;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.dialog-buttons:nth-child(5){
+    width: 19%;
+    margin-right: 0.5%;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    outline: none;
+    color: #f9d342;
+    border: 0;
+    font-size: 20px;
+}
+
+.nav-buttons {
+    text-align: center;
+}
+
+.nav-buttons button {
+
+    margin: 20px;
+    background-color: transparent;
+    color: #f9d342;
+    border: none;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .dialogue-container .content {
+        width: 70%;
+        left: 15%;
+        top: 11vh;
+        min-height: 70vh;
+    }
+    .dialogue-container .buttons-div {
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .dialogue-container .content {
+        width: 95%;
+        left: 2.5%;
+        top: 5vh;
+        min-height: 90vh;
+    }
+    .dialogue-container .buttons-div {
+        margin: 15px;
+    }
+    .dialog-buttons{
+        width: 32%;
+        margin-right: 0%;
+        margin-left: 1%;
+    }
+    .dialog-buttons:nth-child(5){
+        width: 32%;
+        margin-left: 0.5%;
+    }
+    h1 {
+        font-size: 20px;
+    }
+}
+
+.dont-display {
+    display: none;
+}

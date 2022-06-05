@@ -1,5 +1,9 @@
+.top-asks {
+    width: 50%;
+    display: inline-block;
+}
 .top-asks h4 {
-    color: #0ccb80;
+    color: #f6465d;
     text-align: center;
     font-size: 22px;
     margin-bottom: 5px;
@@ -19,11 +23,18 @@ td, th{
     border-right: 1px solid #41454C;
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 5px;
 }
 th {
     border-bottom: 1px solid #41454C;
+    padding: 10px;
 }
 .top-asks td:first-child, .top-asks th:first-child {
-    color: #0ccb80;
+    color: #f6465d;
+}
+
+@media only screen and (max-width: 1200px) {
+    .top-asks {
+        width: 100%;
+    }
 }
